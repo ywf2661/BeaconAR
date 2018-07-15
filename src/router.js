@@ -6,6 +6,7 @@ import MainScene from './components/scene/MainScene';
 import loginscene from './components/scene/LoginScene';
 import Scan from './components/scene/Scan';
 import Record from './components/scene/record';
+import Gwanlee from './components/scene/GwanleeScene';
 
 
 import Navbar from '../src/components/Navbar/Navbar';
@@ -39,6 +40,12 @@ const RouterComponent = () => {
           component={Scan}
           navBar={Navbar}
         />
+
+        <Scene
+          key="Gwanlee"
+          component={Gwanlee}
+          navBar={Navbar}
+         />
 
         <Scene
           key="login"
